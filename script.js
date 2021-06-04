@@ -90,7 +90,7 @@ const DOM = {
         <td class="${CSSclass}">${amount}</td>
         <td class="date">${transaction.date}</td>
         <td>
-            <img onclick="Transaction.remove(${index})" src="./assets/minus.svg" alt="Remover transação">
+            <img id="button-remove" onclick="Transaction.remove(${index})" src="./assets/minus.svg" alt="Remover transação">
         </td>
         `
 
@@ -194,9 +194,8 @@ const Form = {
 
         try {
             // verificar se todas as informações foram preenchidas
-            // Form.validateField()
+            Form.validateField()
             //formatar os dados para salvar
-            // Form.formatData()
             const transaction = Form.formatValues()
             // salvar
             Transaction.add(transaction)

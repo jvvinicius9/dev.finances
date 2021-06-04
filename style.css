@@ -94,6 +94,10 @@ button:hover {
     opacity: 1;
 }
 
+#button-remove {
+    cursor:pointer;
+}
+
 /* ---------------------------------------Header------------------------------------ */
 
 header {
