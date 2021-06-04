@@ -1,6 +1,6 @@
-# dev.finances
+# dev.finance$ CLONE 
 
-## Porject
+## Project
 
 - Tool to organizate finances
 
